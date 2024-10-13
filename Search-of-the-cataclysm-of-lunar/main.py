@@ -1,3 +1,4 @@
+# Skibidi
 def r():
     global role
     role = input('What role - ')
