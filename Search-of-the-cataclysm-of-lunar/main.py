@@ -103,50 +103,50 @@ def introScientist():
       print("The leader stands up but the monster starts rushing. everyone else all go to the side but everyone else dies. You rushes and attackes the monster and shines the light to see it but before that the monster disintagrates to dust.")
 
 
-print("\n")
+    print("\n")
 
-print("You all find a trapdoor and climb out but you see your best friend standing. He shouts and says that a teammate died of suffocation. You walk out to find him but see a hallway full of blood and dead bodies. You realize something is wrong as you saw your best friend die. you rethink but you come to the solution that your best friend killed them all.")
+    print("You all find a trapdoor and climb out but you see your best friend standing. He shouts and says that a teammate died of suffocation. You walk out to find him but see a hallway full of blood and dead bodies. You realize something is wrong as you saw your best friend die. you rethink but you come to the solution that your best friend killed them all.")
 
 
-print("\n")
-print("You tell the leader and the leader's best friend hears you. Oh so you found out, i really am the bad guy after all. Try to stop me if you can but you can't escape as i disrupted the ship. He says rushsing off. You divise a plan with your leader giving you two both daggers to defend and repair the ship. You all start the plan and start to fix the ship while your leader gets his best friend.")
+    print("\n")
+    print("You tell the leader and the leader's best friend hears you. Oh so you found out, i really am the bad guy after all. Try to stop me if you can but you can't escape as i disrupted the ship. He says rushsing off. You divise a plan with your leader giving you two both daggers to defend and repair the ship. You all start the plan and start to fix the ship while your leader gets his best friend.")
 
-print("\n")
+    print("\n")
 
-print("You are sent by the engineer to grab items to help him out but you see 2 soldiers talking and practicing their aim. What do you do")
-ans = input("Hide behind some boxes / Rush in / Throw a molotove - ")
+    print("You are sent by the engineer to grab items to help him out but you see 2 soldiers talking and practicing their aim. What do you do")
+    ans = input("Hide behind some boxes / Rush in / Throw a molotove - ")
 
-if ans == 'Hide behind some boxes':
-            print("You hide behind boxes hearing it but you realize their heading for the engineer but it's too late. You try to stop them but the engineer has died. They turn around and start shooting you rapidly.")
+    if ans == 'Hide behind some boxes':
+                print("You hide behind boxes hearing it but you realize their heading for the engineer but it's too late. You try to stop them but the engineer has died. They turn around and start shooting you rapidly.")
+                print("Mortis, You lose")
+
+    elif ans == 'Rush in':
+                print("You start rushing in and they are about to take aim. You dodge it but then one of them get a lucky shot and hit your knee. You are wounded and about to die but you try to hit them but they shoot you finishing you off.")
+                print("Mortis, You lose")
+
+    else:
+                print("You get a molotov from your secret stash and throw it. They start brutally burning to death and you run make gaining the items and materials")
+                print("\n")
+
+    print("You took out the enemies and your leader rushes back. He tells you that he had killed his best friend by himself and feels gulity and says he was the villian of this mission but i have to move on. He says he found the cactaclysm of lunar and you rush there to grab it. you extract it and go to fix the ship and fly back to earth, telling about the incident and becoming heroes.")
+
+    print("\n")
+    print("13 years go by and you and the scientist become teachers in space school. You are just relaxing at home when you and the scientist get teleported to the skies. A cloaked figure tells you two that he can grant anything but you will grow 30 years in age. Would you do it?")
+
+    ans = input("Yes / No - ")
+
+    if ans == 'Yes':
+            print("You both accept but you don't get money but instead fall into a endless cycle of rewatching the entire incident that happened 13 years ago. The cloaked man reveals to be Lucifer-King of the underworld and he says to never trust him ever if you can see him again.")
             print("Mortis, You lose")
 
-elif ans == 'Rush in':
-            print("You start rushing in and they are about to take aim. You dodge it but then one of them get a lucky shot and hit your knee. You are wounded and about to die but you try to hit them but they shoot you finishing you off.")
-            print("Mortis, You lose")
+    else:
+      print("You say no and he teleports you back to your place but then your tv starts brodcasting live of the incident 13 years ago stating that you, the scientist and the leader were the main villians.")
 
-else:
-            print("You get a molotov from your secret stash and throw it. They start brutally burning to death and you run make gaining the items and materials")
-            print("\n")
+    print("The End?")
 
-print("You took out the enemies and your leader rushes back. He tells you that he had killed his best friend by himself and feels gulity and says he was the villian of this mission but i have to move on. He says he found the cactaclysm of lunar and you rush there to grab it. you extract it and go to fix the ship and fly back to earth, telling about the incident and becoming heroes.")
-
-print("\n")
-print("13 years go by and you and the scientist become teachers in space school. You are just relaxing at home when you and the scientist get teleported to the skies. A cloaked figure tells you two that he can grant anything but you will grow 30 years in age. Would you do it?")
-
-ans = input("Yes / No - ")
-
-if ans == 'Yes':
-          print("You both accept but you don't get money but instead fall into a endless cycle of rewatching the entire incident that happened 13 years ago. The cloaked man reveals to be Lucifer-King of the underworld and he says to never trust him ever if you can see him again.")
-          print("Mortis, You lose")
-
-else:
-          print("You say no and he teleports you back to your place but then your tv starts brodcasting live of the incident 13 years ago stating that you, the scientist and the leader were the main villians.")
-
-print("The End?")
-
-print("\n")
-print("Thank you for playing: Search for the cactaclysm of lunar. It was fun making some stuff and other parts were a struggle but thank you - Creator")
-print("ggs you won there may be a part 2 but we'll see. Thats the question...")
+    print("\n")
+    print("Thank you for playing: Search for the cactaclysm of lunar. It was fun making some stuff and other parts were a struggle but thank you - Creator")
+    print("ggs you won there may be a part 2 but we'll see. Thats the question...")
 
 
 
@@ -369,3 +369,5 @@ def introLeader():
               print("Thank you for playing: Search for the cactaclysm of lunar. It was fun making some stuff and other parts were a struggle - Creator")
               print("ggs you won there may be a part 2 but we'll see. Thats the question...")
               print("\n")
+
+introScene()
